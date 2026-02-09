@@ -49,6 +49,10 @@ To use the AI Analyst, you need a Google AI API Key.
 # Windows PowerShell
 $env:GEMINI_API_KEY = "your_key_here"
 ```
+```Bash
+# Ubuntu Linux
+export GEMINI_API_KEY="your_key_here"
+```
 ### 4. Run the App
 ```Bash
 streamlit run app.py
