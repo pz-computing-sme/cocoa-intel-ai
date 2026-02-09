@@ -33,12 +33,12 @@ Follow these steps to run the platform on your local machine:
 ```bash
 git clone [https://github.com/vitorpozza/Cocoa-Intel-AI.git](https://github.com/vitorpozza/Cocoa-Intel-AI.git)
 cd cocoa-intel-ai
-
+```
 ### 2. Install dependencies
 Make sure you have Python installed, then run:
 ```Bash
 pip install -r requirements.txt
-
+```
 ### 3. Configure Gemini API Key
 To use the AI Analyst, you need a Google AI API Key.
 
@@ -48,11 +48,11 @@ To use the AI Analyst, you need a Google AI API Key.
 ```Bash
 # Windows PowerShell
 $env:GEMINI_API_KEY = "your_key_here"
-
+```
 ### 4. Run the App
 ```Bash
 streamlit run app.py
-
+```
 ## 📊 Project Structure
    app.py: Main application logic.
 
@@ -60,4 +60,4 @@ streamlit run app.py
 
    README.md: Documentation and Space metadata.
 
-Developed by Vitor Pozza Market Intelligence Lead
+*Developed by Vitor Pozza Market Intelligence Lead
